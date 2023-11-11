@@ -3,8 +3,8 @@ INCLUDE lib1.asm
 .STACK	100h
 .DATA
 m1 db 13,10,'CHUC NANG VE DUONG THANG'
-   db,13,10,'-----------------------'
-   db,13,10,13,10,' Vao toa do x: $'
+   db 13,10,'-----------------------'
+   db 13,10,13,10,' Vao toa do x: $'
 m2 db 13,10,' Vao toa do y: $'
 m3 db 13,10,' Vao so luong diem cho duong thang: $'
 x dw ?
